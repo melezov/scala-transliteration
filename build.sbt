@@ -43,7 +43,7 @@ publishArtifact in (Compile, packageDoc) := false
 
 // ### COMPILE SETTINGS ### //
 
-crossScalaVersions := Seq("2.11.2")
+crossScalaVersions := Seq("2.10.4")
 
 scalaVersion := crossScalaVersions.value.head
 
@@ -63,7 +63,6 @@ scalacOptions := Seq(
 , "-Xno-forwarders"
 , "-Xverify"
 , "-Yclosure-elim"
-, "-Yconst-opt"
 , "-Ydead-code"
 , "-Yinline-warnings"
 , "-Yinline"
@@ -71,11 +70,9 @@ scalacOptions := Seq(
 , "-Ywarn-adapted-args"
 , "-Ywarn-dead-code"
 , "-Ywarn-inaccessible"
-, "-Ywarn-infer-any"
 , "-Ywarn-nullary-override"
 , "-Ywarn-nullary-unit"
 , "-Ywarn-numeric-widen"
-, "-Ywarn-unused"
 )
 
 javacOptions := Seq(

@@ -26,7 +26,7 @@ You can now instantiate one of the transliteration/sanitization options.
 By default, SlugURL will lowercase, trim and transliterate everything into an URL-safe slug string:
 
     scala> SlugURL("Listening to: Humoresque № 7 by Antonín Dvořák")
-    res0: String = listening-to-humoresque-no-7-by-antonin-dvorak
+    res0: String = listening-to-humoresque-7-by-antonin-dvorak
 
 Congrats! You can now use this in your URL:
 
