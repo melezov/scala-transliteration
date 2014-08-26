@@ -4,12 +4,12 @@ package test
 import org.junit.runner.RunWith
 import org.scalatest.FeatureSpec
 import org.scalatest.GivenWhenThen
-import org.scalatest.Matchers
+import org.scalatest.ShouldMatchers
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
 class SlugURLFeatureSpec
-    extends FeatureSpec with GivenWhenThen with Matchers {
+    extends FeatureSpec with GivenWhenThen with ShouldMatchers {
 
   feature("Slug URL sanitization"){
     info("Slug URL should convert every evil character combination into a pretty URL-safe string")

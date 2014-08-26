@@ -4,12 +4,12 @@ package test
 import org.junit.runner.RunWith
 import org.scalatest.FeatureSpec
 import org.scalatest.GivenWhenThen
-import org.scalatest.Matchers
+import org.scalatest.ShouldMatchers
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
 class CleanSMSFeatureSpec
-    extends FeatureSpec with GivenWhenThen with Matchers {
+    extends FeatureSpec with GivenWhenThen with ShouldMatchers {
 
   feature("SMS URL sanitization"){
     info("SMS should convert every evil character combination into a pretty URL-safe string")
