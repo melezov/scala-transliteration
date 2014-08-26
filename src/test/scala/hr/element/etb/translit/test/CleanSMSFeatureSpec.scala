@@ -4,7 +4,7 @@ package test
 import org.junit.runner.RunWith
 import org.scalatest.FeatureSpec
 import org.scalatest.GivenWhenThen
-import org.scalatest.ShouldMatchers
+import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
@@ -16,27 +16,27 @@ class CleanSMSFeatureSpec
 
     scenario("SMS unsafe character removal"){
       val in = "aZ{}[]! a";
-      Given ("a string containing: %s" format in)
+      given ("a string containing: %s" format in)
       val res = "aZ-! a"
-      Then ("it should return a string: %s" format res)
+      then ("it should return a string: %s" format res)
       val out = CleanSMS(in)
       out should equal (res)
     }
 
     scenario("SMS unsafe character trimming"){
       val in = "!aćsčš ";
-      Given ("a string containing: %s" format in)
+      given ("a string containing: %s" format in)
       val res = "!acscs "
-      Then ("it should return a string: %s" format res)
+      then ("it should return a string: %s" format res)
       val out = CleanSMS(in)
       out should equal (res)
     }
 
     scenario("SMS whitespace trimming to one character"){
       val in = "Helooooooooooooo   oooo";
-      Given ("a string containing: %s" format in)
+      given ("a string containing: %s" format in)
       val res = "Helooooooooooooo oooo";
-      Then ("it should return a string: %s" format res)
+      then ("it should return a string: %s" format res)
       val out = CleanSMS(in)
       out should equal (res)
     }
