@@ -1,7 +1,17 @@
-Transliteration &amp; sanitization for scala
-============================================
+# Transliteration &amp; sanitization for scala
+
+## Status
+[![Download](https://api.bintray.com/packages/raisercostin/maven/scala-transliteration/images/download.svg)](https://bintray.com/raisercostin/maven/scala-transliteration/_latestVersion)
+[![Build Status](https://travis-ci.org/raisercostin/scala-transliteration.svg?branch=master)](https://travis-ci.org/raisercostin/scala-transliteration)
+[![Codacy Badge](https://www.codacy.com/project/badge/5cc4b6b21f694317ab8beec05342c7b5)](https://www.codacy.com/app/raisercostin/scala-transliteration)
+[![codecov](https://codecov.io/gh/raisercostin/scala-transliteration/branch/master/graph/badge.svg)](https://codecov.io/gh/raisercostin/scala-transliteration)
+<!--[![codecov.io](http://codecov.io/github/raisercostin/scala-transliteration/coverage.svg?branch=master)](http://codecov.io/github/raisercostin/scala-transliteration?branch=master)-->
+
+## Description
 
 A scala wrapper around ICU (http://site.icu-project.org/), with some specific use cases
+
+## Published to bintray
 
 Latest version (0.0.1) has been published against all reasonable versions of Scala:  
 **2.8.x**: 2.8.1, 2.8.2  
@@ -11,7 +21,7 @@ Latest version (0.0.1) has been published against all reasonable versions of Sca
 
 In order to add the library dependency to your project, add the Element resolver:
 
-    resolvers += "Element Releases" at "http://repo.element.hr/nexus/content/repositories/releases/"
+    resolvers += "raisercostin resolver" at "http://dl.bintray.com/raisercostin/maven"
 
 And then
 
