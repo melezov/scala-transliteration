@@ -3,9 +3,7 @@
 ## Status
 [![Download](https://api.bintray.com/packages/raisercostin/maven/scala-transliteration/images/download.svg)](https://bintray.com/raisercostin/maven/scala-transliteration/_latestVersion)
 [![Build Status](https://travis-ci.org/raisercostin/scala-transliteration.svg?branch=master)](https://travis-ci.org/raisercostin/scala-transliteration)
-[![Codacy Badge](https://www.codacy.com/project/badge/5cc4b6b21f694317ab8beec05342c7b5)](https://www.codacy.com/app/raisercostin/scala-transliteration)
-[![codecov](https://codecov.io/gh/raisercostin/scala-transliteration/branch/master/graph/badge.svg)](https://codecov.io/gh/raisercostin/scala-transliteration)
-<!--[![codecov.io](http://codecov.io/github/raisercostin/scala-transliteration/coverage.svg?branch=master)](http://codecov.io/github/raisercostin/scala-transliteration?branch=master)-->
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/92cac2ffbcca45968accd8ecf7ed57f7)](https://www.codacy.com/app/raisercostin/scala-transliteration?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=raisercostin/scala-transliteration&amp;utm_campaign=Badge_Grade)
 
 ## Description
 
