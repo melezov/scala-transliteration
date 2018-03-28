@@ -4,7 +4,7 @@ name := "scala-transliteration"
 description := "Transliteration & sanitization for Scala"
 homepage := Some(url(s"https://github.com/raisercostin/"+name.value))
 
-crossScalaVersions := Seq("2.11.12", "2.10.7", "2.12.5")
+crossScalaVersions := Seq("2.11.12", "2.10.7", "2.12.5", "2.9.3", "2.8.2")
 scalaVersion := crossScalaVersions.value.head
 
 unmanagedSourceDirectories in Compile := Seq((scalaSource in Compile).value)
